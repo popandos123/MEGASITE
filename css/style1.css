@@ -1,5 +1,72 @@
+/*html{
+	background:url('');
+}
+*/
+#ddd{
+	border:41px dashed black;
+	background-color: red;
+	
+}
+footer{
+	background-color: red;
+}
 body{
-	background: black;
+	background: silver;
+}
+h1 {
+	color: red;
+}
+h2{
+	font-style: italic;  
+	color:pink;
+}
+h4#example:first-letter {
+	color:red;
+}
+h5#example1:first-line {
+	color:blue;
+}
+.href{
+	color:orange;
+	text-decoration: none;
+}
+.href:hover{
+	color:aqua;
+	
+}
+.href:active{
+	color:pink;
+	
+}
+p#ex:hover
+{
+	
+color: red;
+font-family:comic sans ms, sans-serif;
+text-decoration: line-through;
+text-indent: 11em;
+word-spacing: 1em;
+
+}
+#d{
+	border:41px dashed red;
+	height: 400px;
+	width: 400px;
+	background-color: aqua;
+	border-radius: 20px;
+	position:fixed;
+	margin-left:60%;
+	margin-top: 10%;
+	transform:rotate(312deg);
+
+}
+#page:hover{
+color:blue;
+font-style:bold;
+}
+/*.href:visited{
+	color:black;
+*/	
 }
 .right {
     float: right; 
