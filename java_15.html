@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title> ellele </title>
+</head>
+<body>
+	
+<script type="text/javascript">
+	
+ 
+ 
+var text = "chislo pi" + Math.PI;
+ text += "\nchislo e"+ Math.E;
+  text += "\nModule -7 = "+ Math.abs(-7);
+  text += "\nSinus 0.3  = "+ Math.sin(0.3);
+   text += "\nrandomnoe cislo  = "+ Math.random();
+   text += "\nrandomnoe cislo ot 0 do 10  = "+ Math.floor(Math.random()*11);
+  Math.floor();//округление до меньшего
+  Math.ceil();//округление до большего
+alert(text);
+
+var date = new Date();
+text ="year-"+date.getFullYear();
+text +="\nmonth-"+date.getMonth();
+text +="\nday-"+date.getDate();
+text +="\nHours-"+date.getHours();
+text +="\nMin-"+date.getMinutes();
+text +="\nsec-"+date.getSeconds();
+alert (text);
+
+
+var arr = new Array (2,3,11,22,3,4,5,222);
+text="Array length - "+ arr.length+"  elements";
+text+="\nArray consist of - "+ arr.join(", ");
+text +="\n Sort - "+ (arr.sort()).join(",");
+alert(text);
+
+
+var string = "stroka";
+var text ="\nStroka length - " + string.length;
+text+="\nWERHNIY REHISTR - " + string.toUpperCase();
+text+="\nNIZNIY REHISTR - " + string.toLowerCase();
+text+="\nOBREZNAJA stroka - " + string.substring(1, 5);
+
+text+="\n3 simvol - " + string.charAt(3);
+text+="\nka -na4inaetsa z  - " + string.indexOf("ka");
+
+alert(text);
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

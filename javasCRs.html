@@ -1,0 +1,133 @@
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+
+  <title>mYTUBE</title>
+
+   <link rel="stylesheet" href="css/style1.css">
+  
+ 
+ 
+ </head>  
+ <body onload="timer()">
+
+ <span onmouseover="oncounter (this)"><br/><br/>На этот текст было наведено 0 раз <br/><br/></span>
+
+ <input type="button" name="b" value="click me" onclick="buttonClick (this)"/> 
+ <form action="" method="post" name="test" id="form">
+  <label for="name">Имя:</label>
+  <input type="text" name="name" placeholder="Имя" id="name" /> <br/><br/>
+
+  <label for="password">Пароль:</label>
+  <input type="password" name="password" placeholder="Пароль" id="password" /> <br/><br/>
+
+  <label for="RePassword">Проверка пароля</label>
+  <input type="password" name="RePassword" placeholder="Введите пароль" id="RePassword"/> <br/><br/>
+
+  <span>Укажите пол (ваш)</span>
+  <input type="radio" name="state" id="state1" value="Мужской"/>
+  <label for="state1">Женский</label>
+  <input type="radio" name="state" id="state2" value="Женский"/>
+  <label for="state2">Мужской</label>
+  <br/><br/>
+  
+  <input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Готово"/>
+ </form>
+ </br>Seconds left  <span id="count">-1</span></br>
+<script type="text/javascript">
+
+	/* дохера всеgо
+*/
+function valid (form){
+ var fail = false;
+  var name = form.name.value;
+  var password = form.password.value;
+  var RePassword = form.RePassword.value;
+  var state = form.state.value;
+ // var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  if (name == "" || name == " ") 
+   fail = "Вы не ввели свое имя";
+  else if (password == "") 
+   fail = "Вы не ввели пароль";
+  else if (password != RePassword) 
+   fail = "Пароли не совпадают";
+  else if (state == "")
+   fail = "Укажите пол"
+   
+  if (fail) 
+   alert(fail);
+else
+	window.location="https://www.youtube.com/channel/UC1A4HDjpOPJu7kZx4vi_QuA?view_as=subscriber"
+ }
+ /* дохера всеgо
+*/
+var id = setInterval("myFunct_1()", 1000);
+var ct =0;
+//function myFunct_1(){
+//counter++;
+//	document.write("seconds remain -"+ counter);
+
+function timer(){
+ct++;
+document.getElementById("count").innerHTML = ct;
+setTimeout("timer()",1000);
+}
+
+/*var counter = 0;
+
+  	function buttonClick (button){
+  		alert("вы нажали на кнопку");
+  	}
+  	function oncounter(button){
+
+  		counter++;
+  		button.innerHTML = "На этот текст было наведено "+counter+" раз "
+  	}
+*/
+  var number = 22;
+  var string;
+  var trueORnot;
+  var x = 1;
+  var y;
+  var rovno;
+  y=12;
+  rovno = x+y;
+  document.write(rovno+"</br>");
+
+
+  trueORnot =true;
+
+  string="ITS NOT A PAGE";
+  var person; 
+  var arr= new Array("str", 1.22, 7, false);
+  
+
+ // if(confirm("are you shure ?")){
+  // person=prompt("Hi ! whats ur name ?")
+  //	alert("hello,"+person);
+ // }
+ // else{
+ // 	alert("poka");
+  //	person="kakaha";
+ // }</br>
+ document.write  ("ANANAS");
+ document.write("</br>Variable number ="+number+"</br>"+string);
+ document.write("</br>"+arr[0]+"</br>"+ arr[2]+"</br>");
+ document.write("On site: "+person);
+ document.write("</br>"+arr.length);
+ for(var i=0;i<arr.length;i++){
+ 	document.write("</br>"+arr[i]);
+ }
+ for(var bb=0;bb>0;bb++){
+ 	document.write  ("</br>ANANAS");
+ }
+ 
+
+  	</script>
+</div>
+
+ </body>
+</html>

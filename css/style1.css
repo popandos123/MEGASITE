@@ -2,6 +2,28 @@
 	background:url('');
 }
 */
+div#divan{
+color:yellow;
+border-width: 10px;
+border-style: solid;
+margin-right:1000px;
+
+}
+div#divan:hover{
+color:red;
+}
+div#divan1{
+color:pink;
+border-width: 10px;
+border-style: solid;
+margin-left:130px;
+
+
+
+}
+div#divan1:hover{
+color:red;
+}
 #ddd{
 	border:41px dashed black;
 	background-color: red;

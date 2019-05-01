@@ -1,0 +1,60 @@
+div#new{
+	border:4px dashed red;
+	height: 100px;
+	width: 400px;
+	background-color: aqua;
+	border-radius: 20px;
+	position:fixed;
+	margin-left:0,3%;
+	margin-top: 0,3%;
+	display:inline;
+	}
+	div#new:hover{
+		height: 100px;
+	width: 400px;
+	color:red;
+	background-color: black;
+	border-radius: 20px;
+	display:inline;
+	}
+
+	div#new2{
+	border:4px dashed red;
+	height: 100px;
+	width: 400px;
+	background-color: aqua;
+	border-radius: 20px;
+	position:fixed;
+	margin-left:0,3%;
+	margin-top: 0,3%;
+	margin-left :31%;
+	display:inline;
+	}
+	div#new2:hover{
+		height: 100px;
+	width: 400px;
+	color:red;
+	background-color: black;
+	border-radius: 20px;
+display:inline;
+	}
+	div#new3{
+	border:4px dashed red;
+	height: 100px;
+	width: 400px;
+	background-color: aqua;
+	border-radius: 20px;
+	position:fixed;
+	margin-left:0,3%;
+	margin-top: 0,3%;
+		margin-left :59%;
+
+	}
+	div#new3:hover{
+		height: 100px;
+	width: 400px;
+	color:red;
+	background-color: black;
+	border-radius: 20px;
+
+	}
